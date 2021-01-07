@@ -6,6 +6,10 @@
 4. `python -m spacy link zh_core_web_sm zh`
 5. `rasa train`
 6. `rasa run action`
+7. `rasa x`
+
+### 运行截图
+![image](snapshots/snapshot-1.png)
 
 ### 注意:
   - 在`rasa train`之前要删除掉默认生成的英文model, 即清空models文件夹下原有的文件
