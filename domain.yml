@@ -4,23 +4,16 @@ session_config:
 intents:
 - greet
 - goodbye
-- affirm
-- deny
-- mood_great
-- mood_unhappy
-- bot_challenge
-- wheather
+- help
 responses:
   utter_greet:
-  - text: Hey! How are you?
-  utter_cheer_up:
-  - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Here is something to cheer you up:'
-  utter_did_that_help:
-  - text: Did that help you?
-  utter_happy:
-  - text: Great, carry on!
+  - text: 你好呀!
+  - text: 很高兴认识你!
+  - text: 认识你真高兴~
+  - text: 很荣幸认识你!
   utter_goodbye:
-  - text: Bye
-  utter_iamabot:
-  - text: I am a bot, powered by Rasa.
+  - text: 再见
+  - text: 下次见
+  - text: 回头见
+  utter_help:
+  - text: 你可以和我打招呼,说再见以及说帮助
