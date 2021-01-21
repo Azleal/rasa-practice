@@ -5,6 +5,13 @@ intents:
 - greet
 - goodbye
 - help
+- query_weather
+entities:
+- city
+slots:
+  city:
+    type: text
+    influence_conversation: false
 responses:
   utter_greet:
   - text: 你好呀!
@@ -17,3 +24,5 @@ responses:
   - text: 回头见
   utter_help:
   - text: 你可以和我打招呼,说再见以及说帮助
+actions:
+- action_query_weather
